@@ -307,6 +307,7 @@ nav {
     font-size: 1rem;
     transition: all 0.2s ease;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem;
 }
 
 .form-input:focus {
