@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LiterasiKu - Membangun Minat Baca Anak Indonesia</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-container">
+                <a href="#" class="logo"><image src="images/books.png" height="30" width="30"/> LiterasiKu</a>
+                <ul class="nav-links">
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#program">Program</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="beranda">
+        <div class="container">
+            <h1>Membangun Generasi Literasi</h1>
+            <p class="hero-subtitle">Wujudkan minat baca anak Indonesia dan lindungi mereka dari bahaya penggunaan gadget berlebihan melalui program edukasi yang menyenangkan dan interaktif.</p>
+            <a href="#program" class="cta-button">Mulai Belajar Sekarang</a>
+        </div>
+    </section>
+
+    <div class="main-content">
+        <div class="container">
+            <p id="description">
+                LiterasiKu adalah platform edukasi yang didedikasikan untuk meningkatkan minat baca anak-anak Indonesia. 
+                Kami menyediakan program pembelajaran yang menyenangkan sambil mengedukasi tentang pentingnya membatasi 
+                penggunaan gadget dan mengutamakan aktivitas membaca untuk perkembangan optimal anak.
+            </p>
+
+            <section class="section" id="program">
+                <h2 class="section-title">Program Unggulan Kami</h2>
+                <div class="features">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-book"></i></div>
+                        <h3 class="feature-title">Reading Challenge</h3>
+                        <p class="feature-description">Program tantangan membaca harian yang dirancang khusus untuk meningkatkan kemampuan literasi anak dengan cara yang menyenangkan dan interaktif.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <h3 class="feature-title">Digital Detox</h3>
+                        <p class="feature-description">Edukasi tentang bahaya penggunaan gadget berlebihan dan panduan praktis untuk menciptakan keseimbangan hidup digital yang sehat bagi anak.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-thumbtack"></i></div>
+                        <h3 class="feature-title">Metode Pembelajaran</h3>
+                        <p class="feature-description">Pendekatan pembelajaran yang terbukti efektif dengan kombinasi storytelling, gamifikasi, dan aktivitas kreatif untuk membangun kebiasaan membaca.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="media-section" id="tentang">
+                <div class="container">
+                    <h2 class="media-title">Konten Edukasi Interaktif</h2>
+                    <div class="media-content">
+                        <p class="media-subtitle">
+                            Nikmati berbagai konten edukatif yang telah dirancang khusus untuk anak-anak
+                        </p>
+                        
+                        <img src="/images/read-book.jpg" alt="Program Literasi Anak" class="media-image">
+                    </div>
+                </div>
+            </section>
+
+            <div class="link-section">
+                <a id="link" href="https://skilvul.com" target="_blank">
+                    <span>🚀</span>
+                    Kunjungi Skilvul untuk Belajar Lebih Lanjut
+                </a>
+            </div>
+
+            <section class="form-section" id="kontak">
+                <div class="container">
+                    <h2 class="form-title">Daftar Program Literasi</h2>
+                    <div class="form-container">
+                        <form id="registration-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nama Lengkap</label>
+                                <input type="text" id="name" class="form-input" placeholder="Masukkan nama lengkap" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="city" class="form-label">Kota</label>
+                                <input type="text" id="city" class="form-input" placeholder="Masukkan nama kota" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" class="form-input" placeholder="Masukkan alamat email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="zip-code" class="form-label">Kode Pos</label>
+                                <input type="number" id="zip-code" class="form-input" placeholder="Masukkan kode pos" required>
+                            </div>
+                            
+                            <div class="checkbox-container">
+                                <input type="checkbox" id="status" required>
+                                <label for="status" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+                            </div>
+                            
+                            <button type="submit" id="submit-form" class="submit-btn">Submit</button>
+                            
+                            <div id="warning" class="warning"></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LiterasiKu</h3>
+                    <p>
+                        Platform edukasi terdepan untuk membangun generasi literasi Indonesia yang cerdas dan sehat dalam menggunakan teknologi.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Program Kami</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Reading Challenge</a></li>
+                        <li><a href="#">Digital Detox Workshop</a></li>
+                        <li><a href="#">Parent Guidance</a></li>
+                        <li><a href="#">Teacher Training</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:info@literasiku.com">info@literasiku.com</a></li>
+                        <li><a href="tel:+628123456789">+62 812 3456 789</a></li>
+                        <li><a href="#">www.literasiku.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 LiterasiKu. All Right Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
